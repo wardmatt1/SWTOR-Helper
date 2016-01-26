@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Item_Crafting>
+    <Name>Power Tube</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>1</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Memory Core</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>1</Tier>
+    <Quality>Artifact</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Augmentation Chip</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>2</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Cybernetic Interface Jack</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>2</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Augment Modification Enhancer</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>3</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Power Capacitor</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>3</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Sonic Imprint Sensor</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>4</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Vacierite Memory Core</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>4</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Energy Converter</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>5</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Lanthanide Modulator</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>5</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Subelectronic Data Module</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>6</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Advanced Neural Augmentor</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>6</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Bio-Mechanical Interface Chip</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>7</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Thermal Regulator</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>7</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Biocell Memory Core</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>8</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Pro_8.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Adaptive Circuitry</Name>
+    <CrewSkill>Slicing</CrewSkill>
+    <Source />
+    <Tier>8</Tier>
+    <Quality>Prototype</Quality>
+    <Subtype>Sliced Tech Part</Subtype>
+    <Icon>Sli_STP_Art_8.jpg</Icon>
+  </Item_Crafting>
+</Data>

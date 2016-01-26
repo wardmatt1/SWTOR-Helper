@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Item_Crafting>
+    <Name>Lost Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Sacred Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Ancient Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Galactic Artifact Fragment</Name>
+    <Item_CraftingType>Item_CraftingMat</Item_CraftingType>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Hypertech Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Primeval Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Primordial Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Enigmatic Artifact Fragment</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Artifact Fragment</Subtype>
+    <Icon>Arch_Fra_8.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Amorphous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Igneous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Opaque Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Solid Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Lucent Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Polychromic Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Blue Polychromic Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Luminous Blue Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_B_8.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Amorphous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Igneous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Opaque Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Solid Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Lucent Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Polychromic Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Red Polychromic Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Luminous Red Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_R_8.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Amorphous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Igneous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Opaque Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Solid Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Lucent Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Polychromic Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Green Diaphanous Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Luminous Green Crystal</Name>
+    <CrewSkill>Archaeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Color Crystal</Subtype>
+    <Icon>Arch_Col_G_8.jpg</Icon>
+  </Item_Crafting>
+</Data>

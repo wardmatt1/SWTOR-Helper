@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Item_Crafting>
+    <Name></Name>
+    <CrewSkill></CrewSkill>
+    <CrewSkillLvl></CrewSkillLvl>
+    <Tier></Tier>
+    <Quality></Quality>
+    <Subtype></Subtype>
+    <Icon>.jpg</Icon>
+  </Item_Crafting>
+</Data>

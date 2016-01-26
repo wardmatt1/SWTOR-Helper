@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Item_Crafting>
+    <Name>Silica</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Plastoid</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Lacqerous</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Fibermesh</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Polyplast</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Zal Alloy</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Turadium</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Molytex</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Com_8.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Desh</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Bronzium</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Phobium</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Bondite</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Electrum</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Durasteel</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Mythra</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Farium</Name>
+    <CrewSkill>Scavenging</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Scavenged Compound</Subtype>
+    <Icon>Sca_Met_8.jpg</Icon>
+  </Item_Crafting>
+</Data>

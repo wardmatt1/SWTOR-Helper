@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <CrewSkill>
+    <Name></Name>
+    <Type></Type>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+  </CrewSkill>
+</data>

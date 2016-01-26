@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Item_Crafting>
+    <Name>Green Goo</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Genetic Anomaly</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Hallucinogenic Compound</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Nerve-Damaging Chemical</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Nutrient Gel</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Immunity Cell Culture</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Artificial Microbe</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Metamorphic Cell Culture</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Com_8.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Dielectric Cell Fiber	</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Microscopic Symbiote</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Bio-Energy Cell Sample</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Alien Bacteria</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Parasitic Microorganism</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Mutagenic Paste</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Metabolic Enhancement Agent</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Anodyne Extract</Name>
+    <CrewSkill>Bioanalysis</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Biochemical Compound</Subtype>
+    <Icon>Bio_Sam_8.jpg</Icon>
+  </Item_Crafting>
+</Data>

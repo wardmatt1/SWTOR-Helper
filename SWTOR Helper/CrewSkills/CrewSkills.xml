@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <CrewSkill>
+    <Name>Bioanalysis</Name>
+    <Type>Gathering</Type>
+    <Tier1>0</Tier1>
+    <Tier1P>Coruscant, Dromund Kaas, Taris (Pub), Balmorra (Imp)</Tier1P>
+    <Tier2>80</Tier2>
+    <Tier2P>Taris (Pub), Balmorra (Imp), Nar Shaddaa</Tier2P>
+    <Tier3>160</Tier3>
+    <Tier3P>Tatooine, Alderaan</Tier3P>
+    <Tier4>240</Tier4>
+    <Tier4P>Quesh, Hoth</Tier4P>
+    <Tier5>300</Tier5>
+    <Tier5P>Hoth, Belsavis</Tier5P>
+    <Tier6>350</Tier6>
+    <Tier6P>Hoth, Corellia, Ilum</Tier6P>
+    <Tier7>400</Tier7>
+    <Tier7P>Makeb, Oricon</Tier7P>
+    <Tier8>450</Tier8>
+    <Tier8P>Rishi, Yavin 4</Tier8P>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Scavenging</Name>
+    <Type>Gathering</Type>
+    <Tier1>0</Tier1>
+    <Tier1P>Coruscant, DK, Taris (Pub), Balmorra (Imp)</Tier1P>
+    <Tier2>80</Tier2>
+    <Tier2P>Taris (Pub), Balmorra (Imp), Nar Shaddaa</Tier2P>
+    <Tier3>160</Tier3>
+    <Tier3P>Nar Shaddaa,, Tatooine, Alderaan</Tier3P>
+    <Tier4>240</Tier4>
+    <Tier4P>Alderaan, Balmorra (Pub), Taris (Imp)</Tier4P>
+    <Tier5>300</Tier5>
+    <Tier5P>Hoth, Belsavis, Voss</Tier5P>
+    <Tier6>350</Tier6>
+    <Tier6P>Belsavis, Corellia, Ilum</Tier6P>
+    <Tier7>400</Tier7>
+    <Tier7P>Makeb, Oricon</Tier7P>
+    <Tier8>450</Tier8>
+    <Tier8P>Rishi, Yavin 4</Tier8P>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Slicing</Name>
+    <Type>Gathering</Type>
+    <Tier1>0</Tier1>
+    <Tier1P>Coruscant, Dromund Kaas, Taris (Pub), Balmorra (Imp)</Tier1P>
+    <Tier2>80</Tier2>
+    <Tier2P>Taris (Pub), Balmorra (Imp), Nar Shaddaa, Tatooine</Tier2P>
+    <Tier3>160</Tier3>
+    <Tier3P>Alderaan, Balmorra (Pub), Taris (Imp)</Tier3P>
+    <Tier4>240</Tier4>
+    <Tier4P>Balmorra (Pub), Taris (Imp), Quesh, Hoth</Tier4P>
+    <Tier5>300</Tier5>
+    <Tier5P>Hoth, Belsavis</Tier5P>
+    <Tier6>350</Tier6>
+    <Tier6P>Belsavis, Voss, Corellia, Ilum</Tier6P>
+    <Tier7>400</Tier7>
+    <Tier7P>Makeb, Oricon</Tier7P>
+    <Tier8>450</Tier8>
+    <Tier8P>Rishi, Yavin 4</Tier8P>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Archaeology</Name>
+    <Type>Gathering</Type>
+    <Tier1>0</Tier1>
+    <Tier1P>Coruscant, Dromund Kaas, Taris (Pub), Balmorra (Imp)</Tier1P>
+    <Tier2>80</Tier2>
+    <Tier2P>Taris (Pub), Balmorra (Imp), Nar Shaddaa, Tatooine</Tier2P>
+    <Tier3>160</Tier3>
+    <Tier3P>Alderaan, Balmorra (Pub), Taris (Imp)</Tier3P>
+    <Tier4>240</Tier4>
+    <Tier4P>Balmorra (Pub), Taris (Imp), Quesh, Hoth</Tier4P>
+    <Tier5>300</Tier5>
+    <Tier5P>Hoth, Belsavis</Tier5P>
+    <Tier6>350</Tier6>
+    <Tier6P>Belsavis, Voss, Corellia, Ilum</Tier6P>
+    <Tier7>400</Tier7>
+    <Tier7P>Makeb, Oricon</Tier7P>
+    <Tier8>450</Tier8>
+    <Tier8P>Rishi, Yavin 4</Tier8P>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Diplomicy</Name>
+    <Type>Mission</Type>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Investigation</Name>
+    <Type>Mission</Type>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Underworld Trading</Name>
+    <Type>Mission</Type>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Treasure Hunting</Name>
+    <Type>Mission</Type>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+  </CrewSkill>
+</data>
