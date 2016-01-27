@@ -2,7 +2,7 @@
 <Data>
   <Item_Crafting>
     <Name>Lost Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>1</Tier>
     <Quality>Premium</Quality>
@@ -11,7 +11,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Sacred Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>2</Tier>
     <Quality>Premium</Quality>
@@ -20,7 +20,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Ancient Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>3</Tier>
     <Quality>Premium</Quality>
@@ -30,7 +30,7 @@
   <Item_Crafting>
     <Name>Galactic Artifact Fragment</Name>
     <Item_CraftingType>Item_CraftingMat</Item_CraftingType>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>4</Tier>
     <Quality>Premium</Quality>
@@ -39,7 +39,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Hypertech Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Source>Harvesting</Source>
     <Tier>5</Tier>
@@ -49,7 +49,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Primeval Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Source>Harvesting</Source>
     <Tier>6</Tier>
@@ -59,7 +59,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Primordial Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Source>Harvesting</Source>
     <Tier>7</Tier>
@@ -69,7 +69,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Enigmatic Artifact Fragment</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Source>Harvesting</Source>
     <Tier>8</Tier>
@@ -79,7 +79,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Amorphous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>1</Tier>
     <Quality>Premium</Quality>
@@ -88,7 +88,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Igneous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>2</Tier>
     <Quality>Premium</Quality>
@@ -97,7 +97,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Opaque Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>3</Tier>
     <Quality>Premium</Quality>
@@ -106,7 +106,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Solid Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>4</Tier>
     <Quality>Premium</Quality>
@@ -115,7 +115,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Lucent Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>5</Tier>
     <Quality>Premium</Quality>
@@ -124,7 +124,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Polychromic Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>6</Tier>
     <Quality>Premium</Quality>
@@ -133,7 +133,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Blue Polychromic Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>7</Tier>
     <Quality>Premium</Quality>
@@ -142,7 +142,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Luminous Blue Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>8</Tier>
     <Quality>Premium</Quality>
@@ -151,7 +151,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Amorphous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>1</Tier>
     <Quality>Premium</Quality>
@@ -160,7 +160,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Igneous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>2</Tier>
     <Quality>Premium</Quality>
@@ -169,7 +169,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Opaque Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>3</Tier>
     <Quality>Premium</Quality>
@@ -178,7 +178,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Solid Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>4</Tier>
     <Quality>Premium</Quality>
@@ -187,7 +187,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Lucent Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>5</Tier>
     <Quality>Premium</Quality>
@@ -196,7 +196,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Polychromic Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>6</Tier>
     <Quality>Premium</Quality>
@@ -205,7 +205,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Red Polychromic Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>7</Tier>
     <Quality>Premium</Quality>
@@ -214,7 +214,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Luminous Red Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>8</Tier>
     <Quality>Premium</Quality>
@@ -223,7 +223,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Amorphous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>1</Tier>
     <Quality>Premium</Quality>
@@ -232,7 +232,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Igneous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>2</Tier>
     <Quality>Premium</Quality>
@@ -241,7 +241,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Opaque Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>3</Tier>
     <Quality>Premium</Quality>
@@ -250,7 +250,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Solid Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>4</Tier>
     <Quality>Premium</Quality>
@@ -259,7 +259,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Lucent Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>5</Tier>
     <Quality>Premium</Quality>
@@ -268,7 +268,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Polychromic Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>6</Tier>
     <Quality>Premium</Quality>
@@ -277,7 +277,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Green Diaphanous Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>7</Tier>
     <Quality>Premium</Quality>
@@ -286,7 +286,7 @@
   </Item_Crafting>
   <Item_Crafting>
     <Name>Luminous Green Crystal</Name>
-    <CrewSkill>Archaeology</CrewSkill>
+    <CrewSkill>Archeology</CrewSkill>
     <Source>Harvesting</Source>
     <Tier>8</Tier>
     <Quality>Premium</Quality>

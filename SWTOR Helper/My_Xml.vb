@@ -33,7 +33,7 @@ Module My_Xml
                             Dim imgfile As String = filedir + "\Icons\" + item.IconName
                             If File.Exists(imgfile) Then
                                 item.Icon = Image.FromFile(imgfile)
-
+                                Icons.Images.Add(item.Name, item.Icon)
                             End If
                         Case "Item"
 

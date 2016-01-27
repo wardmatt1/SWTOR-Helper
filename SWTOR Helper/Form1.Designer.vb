@@ -36,6 +36,7 @@ Partial Class Main_Window
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ItemDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ItemPalletToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -116,7 +117,7 @@ Partial Class Main_Window
         '
         'ToolsToolStripMenuItem
         '
-        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ItemDatabaseToolStripMenuItem})
+        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ItemDatabaseToolStripMenuItem, Me.ItemPalletToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
         Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
@@ -124,8 +125,14 @@ Partial Class Main_Window
         'ItemDatabaseToolStripMenuItem
         '
         Me.ItemDatabaseToolStripMenuItem.Name = "ItemDatabaseToolStripMenuItem"
-        Me.ItemDatabaseToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
+        Me.ItemDatabaseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ItemDatabaseToolStripMenuItem.Text = "Item Database"
+        '
+        'ItemPalletToolStripMenuItem
+        '
+        Me.ItemPalletToolStripMenuItem.Name = "ItemPalletToolStripMenuItem"
+        Me.ItemPalletToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ItemPalletToolStripMenuItem.Text = "Item Pallet"
         '
         'Main_Window
         '
@@ -157,4 +164,5 @@ Partial Class Main_Window
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ItemDatabaseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ItemPalletToolStripMenuItem As ToolStripMenuItem
 End Class

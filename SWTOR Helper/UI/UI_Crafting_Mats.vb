@@ -418,9 +418,10 @@
             End If
         Next
 
-        CraftingMat_ListView.AutoResizeColumn(0, ColumnHeaderAutoResizeStyle.HeaderSize)
-        CraftingMat_ListView.AutoResizeColumn(1, ColumnHeaderAutoResizeStyle.HeaderSize)
-        CraftingMat_ListView.AutoResizeColumn(2, ColumnHeaderAutoResizeStyle.HeaderSize)
+        For Each col As ColumnHeader In CraftingMat_ListView.Columns
+            Dim index = CraftingMat_ListView.Columns.IndexOf(col)
+            CraftingMat_ListView.AutoResizeColumn(index, ColumnHeaderAutoResizeStyle.HeaderSize)
+        Next
         CraftingMat_ListView.EndUpdate()
     End Sub
 

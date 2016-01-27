@@ -7,8 +7,11 @@ Imports System.IO
 Public Module My_functions
     Public UI_Main As UI_Mainwindow
     Public Items As List(Of My_item) = New List(Of My_item)
-    Public MainW As Form = Main_Window
+    Public UI_Banks As List(Of UI_Bank) = New List(Of UI_Bank)
 
+    Public MainW As Form = Main_Window
+    Public Item_Pallet As UI_ItemPallet
+    Public Icons As ImageList = New ImageList
     'Dictionaries
     Public LoadedLegacy As New Dictionary(Of String, Legacy)
     Public MainPanels As New Dictionary(Of String, Panel)
@@ -56,6 +59,14 @@ Public Module My_functions
 
         End If
         Return node.Name
+    End Function
+    Public Function getItembyName(Name As String) As My_item
+        For Each item In Items
+            If item.Name = Name Then
+                Return item
+            End If
+        Next
+        Return Nothing
     End Function
 
 

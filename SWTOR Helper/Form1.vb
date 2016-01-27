@@ -6,10 +6,13 @@ Public Class Main_Window
         loadxml("CrewSkills")
 
         loadxml("Items")
+        Item_Pallet = New UI_ItemPallet
+
         UI_Main = New UI_Mainwindow(Me)
         Dim UI_Craft = New UI_Crafting_Mats(Me)
         Dim l As Legacy = New Legacy("test")
         Dim c As Character = New Character("asrock", l)
+
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
@@ -38,5 +41,9 @@ Public Class Main_Window
 
     Private Sub ItemDatabaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItemDatabaseToolStripMenuItem.Click
         UI_ItemDatabase.Show()
+    End Sub
+
+    Private Sub ItemPalletToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItemPalletToolStripMenuItem.Click
+        Item_Pallet.window.Show()
     End Sub
 End Class

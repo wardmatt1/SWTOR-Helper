@@ -99,6 +99,7 @@
     <Compile Include="Inventory.vb" />
     <Compile Include="InventoryItem.vb" />
     <Compile Include="Legacy.vb" />
+    <Compile Include="UI\UI_ItemPallet.vb" />
     <Compile Include="UI\UI_Mainwindow.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
