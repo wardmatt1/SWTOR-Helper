@@ -361,6 +361,7 @@ Public Class UI_Bank
             Dim litem As ListViewItem = list.SelectedItems.Item(0)
             litem.Remove()
             litem = Nothing
+            _SlotsReaminingLable.Text = "Remaining Slots: " & _slotsLeft(tabindex)
         End If
     End Sub
     Private Sub tabchange() Handles _tabber.SelectedIndexChanged

@@ -32,7 +32,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>2</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_2.jpg</Icon>
   </Item_Crafting>
@@ -50,7 +50,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>3</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_3.jpg</Icon>
   </Item_Crafting>
@@ -68,7 +68,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>4</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_4.jpg</Icon>
   </Item_Crafting>
@@ -86,7 +86,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>5</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_5.jpg</Icon>
   </Item_Crafting>
@@ -104,7 +104,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>6</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_6.jpg</Icon>
   </Item_Crafting>
@@ -122,7 +122,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>7</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_7.jpg</Icon>
   </Item_Crafting>
@@ -140,7 +140,7 @@
     <CrewSkill>Slicing</CrewSkill>
     <Source />
     <Tier>8</Tier>
-    <Quality>Prototype</Quality>
+    <Quality>Artifact</Quality>
     <Subtype>Sliced Tech Part</Subtype>
     <Icon>Sli_STP_Art_8.jpg</Icon>
   </Item_Crafting>
