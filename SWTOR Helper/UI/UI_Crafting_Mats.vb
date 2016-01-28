@@ -259,7 +259,6 @@
         Me.CraftingMat_ListView.TabIndex = 0
         Me.CraftingMat_ListView.UseCompatibleStateImageBehavior = False
         Me.CraftingMat_ListView.View = System.Windows.Forms.View.Details
-
         'CraftingMat_Info_Planets
         '
         Me.CraftingMat_Info_Planets.Controls.Add(Me.CraftingMat_Info_Planetlist)
@@ -415,7 +414,6 @@
                 lvwItem.SubItems.Add(item.Name)
                 lvwItem.SubItems.Add(item.Crewskill)
                 CraftingMat_ListView.Items.Add(lvwItem)
-                lvwItem.ImageKey = Icons.Images.Keys.IndexOf(item.Name)
             End If
         Next
 
