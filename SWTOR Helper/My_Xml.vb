@@ -31,9 +31,12 @@ Module My_Xml
                             item.Subtype = My_InnerText("Subtype", node)
                             item.IconName = My_InnerText("Icon", node)
                             Dim imgfile As String = filedir + "\Icons\" + item.IconName
+                            Log("Loaded: " & item.Name)
                             If File.Exists(imgfile) Then
                                 item.Icon = Image.FromFile(imgfile)
                                 Icons.Images.Add(item.Name, item.Icon)
+                            Else
+                                Log("File missing: " & imgfile)
                             End If
                         Case "Item"
 

@@ -75,6 +75,7 @@ Public Class UI_Bank
         _list1.View = View.Details
         _list1.FullRowSelect = True
         _list1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3})
+
         '_list2
         _list2 = New ListView
         _list2.Location = New System.Drawing.Point(3, 3)
@@ -288,8 +289,6 @@ Public Class UI_Bank
             Case 4
                 UI_Bank_TabCount = 5
                 _tabber.TabPages.Add(_tab5)
-            Case Else
-                MsgBox("Can't add more tabs")
         End Select
     End Sub
     Private Sub RemTabButton_Clicked(sender As Object, e As EventArgs) Handles _RemTabButton.Click
@@ -306,8 +305,6 @@ Public Class UI_Bank
             Case 2
                 UI_Bank_TabCount = 1
                 _tabber.TabPages.Remove(_tab2)
-            Case Else
-                MsgBox("Can't Remove more tabs")
         End Select
     End Sub
 
@@ -354,7 +351,17 @@ Public Class UI_Bank
         End If
     End Sub
     Private Sub ItemControlRemButton_Clicked() Handles _ItemControlRemButton.Click
-
+        Dim tabindex = _tabber.TabPages.IndexOf(_tabber.SelectedTab)
+        Dim list As ListView = _tabber.SelectedTab.Controls.Item(0)
+        If list.SelectedItems.Count > 0 Then
+            Dim selitem As Integer = list.SelectedIndices(0)
+            Dim inventory As Inventory = _bank.banktab(tabindex)
+            inventory.remItem(selitem)
+            _slotsLeft(tabindex) = _slotsLeft(tabindex) + 1
+            Dim litem As ListViewItem = list.SelectedItems.Item(0)
+            litem.Remove()
+            litem = Nothing
+        End If
     End Sub
     Private Sub tabchange() Handles _tabber.SelectedIndexChanged
         Dim tabindex = _tabber.TabPages.IndexOf(_tabber.SelectedTab)
@@ -368,4 +375,5 @@ Public Class UI_Bank
         litem.SubItems.Add(count)
         list.Items.Add(litem)
     End Sub
+
 End Class

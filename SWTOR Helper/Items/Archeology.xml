@@ -293,4 +293,76 @@
     <Subtype>Color Crystal</Subtype>
     <Icon>Arch_Col_G_8.jpg</Icon>
   </Item_Crafting>
+  <Item_Crafting>
+    <Name>Rubat Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>1</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_1.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Nextor Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>2</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_2.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Opila Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>3</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_3.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Firkrann Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>4</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_4.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Damind Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>5</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_5.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Upari Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>6</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_6.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Carbonic Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>7</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_7.jpg</Icon>
+  </Item_Crafting>
+  <Item_Crafting>
+    <Name>Ruusan Crystal</Name>
+    <CrewSkill>Archeology</CrewSkill>
+    <Source>Harvesting</Source>
+    <Tier>8</Tier>
+    <Quality>Premium</Quality>
+    <Subtype>Power Crystal</Subtype>
+    <Icon>Arch_Pow_8.jpg</Icon>
+  </Item_Crafting>
 </Data>

@@ -1,4 +1,6 @@
-﻿Public Class UI
+﻿
+Public Class UI
+
     Private _window As Form
     Private _Name As String
     Private _Panel As System.Windows.Forms.Panel

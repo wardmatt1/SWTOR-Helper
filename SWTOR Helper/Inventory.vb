@@ -1,7 +1,7 @@
 ﻿Public Class Inventory
     Private _owner As SWTOR_Record
     Private _type As Boolean
-    Private _slots(79) As InventoryItem
+    Private _slots As List(Of InventoryItem) = New List(Of InventoryItem)
     Private _maxslots As Byte
     Private _slotsused As Byte = 0
     Sub New(owner As SWTOR_Record, Optional type As Boolean = True) 'type true = bank
@@ -13,8 +13,12 @@
         _owner = owner
     End Sub
     Public Sub addItem(item As My_item, count As Byte)
-        _slots(_slotsused) = New InventoryItem(item, Me, count)
+        Dim invitem As InventoryItem = New InventoryItem(item, Me, count)
+        _slots.Add(invitem)
         _slotsused += 1
     End Sub
-
+    Public Sub remItem(slot As Integer)
+        _slots.RemoveAt(slot)
+        _slotsused = _slotsused - 1
+    End Sub
 End Class

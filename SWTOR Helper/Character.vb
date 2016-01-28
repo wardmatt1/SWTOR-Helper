@@ -18,4 +18,11 @@
         _UI_Inventory = New Chr_Inventory(Me, _UI_Character)
         SWTOR_Bank = New Bank(Me, _UI_Character)
     End Sub
+    Public ReadOnly Property Inventory
+        Get
+            Return _Inventory
+        End Get
+    End Property
+
+
 End Class

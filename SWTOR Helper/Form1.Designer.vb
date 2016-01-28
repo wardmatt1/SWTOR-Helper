@@ -37,6 +37,7 @@ Partial Class Main_Window
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ItemDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ItemPalletToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LogFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -117,7 +118,7 @@ Partial Class Main_Window
         '
         'ToolsToolStripMenuItem
         '
-        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ItemDatabaseToolStripMenuItem, Me.ItemPalletToolStripMenuItem})
+        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ItemDatabaseToolStripMenuItem, Me.ItemPalletToolStripMenuItem, Me.LogFileToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
         Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
@@ -133,6 +134,12 @@ Partial Class Main_Window
         Me.ItemPalletToolStripMenuItem.Name = "ItemPalletToolStripMenuItem"
         Me.ItemPalletToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ItemPalletToolStripMenuItem.Text = "Item Pallet"
+        '
+        'LogFileToolStripMenuItem
+        '
+        Me.LogFileToolStripMenuItem.Name = "LogFileToolStripMenuItem"
+        Me.LogFileToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.LogFileToolStripMenuItem.Text = "Log File"
         '
         'Main_Window
         '
@@ -165,4 +172,5 @@ Partial Class Main_Window
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ItemDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ItemPalletToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LogFileToolStripMenuItem As ToolStripMenuItem
 End Class

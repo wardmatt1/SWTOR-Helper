@@ -115,7 +115,7 @@
     <Tier>7</Tier>
     <Quality>Prototype</Quality>
     <Subtype>Sliced Tech Part</Subtype>
-    <Icon>Sli_STP_Art_7.jpg</Icon>
+    <Icon>Sli_STP_Pro_7.jpg</Icon>
   </Item_Crafting>
   <Item_Crafting>
     <Name>Thermal Regulator</Name>
@@ -124,7 +124,7 @@
     <Tier>7</Tier>
     <Quality>Prototype</Quality>
     <Subtype>Sliced Tech Part</Subtype>
-    <Icon>Sli_STP_Pro_7.jpg</Icon>
+    <Icon>Sli_STP_Art_7.jpg</Icon>
   </Item_Crafting>
   <Item_Crafting>
     <Name>Biocell Memory Core</Name>

@@ -2,7 +2,9 @@
 
 Public Class Main_Window
     Private Sub Main_Window_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Log("-------------------")
+        Log("Starting up deh helper!")
+        Log(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"))
         loadxml("CrewSkills")
 
         loadxml("Items")
@@ -44,6 +46,23 @@ Public Class Main_Window
     End Sub
 
     Private Sub ItemPalletToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItemPalletToolStripMenuItem.Click
+        Item_Pallet = New UI_ItemPallet
         Item_Pallet.window.Show()
+    End Sub
+
+    Private Sub LogFileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogFileToolStripMenuItem.Click
+        Dim FILE_NAME As String = Directory.GetCurrentDirectory() + "\Log\Log.txt"
+
+        If System.IO.File.Exists(FILE_NAME) = True Then
+            Process.Start(FILE_NAME)
+        Else
+            MsgBox("File Does Not Exist")
+        End If
+    End Sub
+    Private Sub window_close(sender As Object, e As EventArgs) Handles Me.Closed
+        Log("Helper Deactivated!")
+        Log(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"))
+        Log("-------------------")
+
     End Sub
 End Class

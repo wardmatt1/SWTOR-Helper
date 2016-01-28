@@ -85,6 +85,10 @@
             For Each bankui As UI_Bank In UI_Banks
                 bankui.PalletItem = getItembyName(sender.SelectedItems.Item(0).Text)
             Next
+            For Each chrinv As UI_ChrInventory In UI_ChrInventorys
+                chrinv.PalletItem = getItembyName(sender.SelectedItems.Item(0).Text)
+            Next
+
         End If
     End Sub
 

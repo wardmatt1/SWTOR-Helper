@@ -8,7 +8,7 @@ Public Module My_functions
     Public UI_Main As UI_Mainwindow
     Public Items As List(Of My_item) = New List(Of My_item)
     Public UI_Banks As List(Of UI_Bank) = New List(Of UI_Bank)
-
+    Public UI_ChrInventorys As List(Of UI_ChrInventory) = New List(Of UI_ChrInventory)
     Public MainW As Form = Main_Window
     Public Item_Pallet As UI_ItemPallet
     Public Icons As ImageList = New ImageList
