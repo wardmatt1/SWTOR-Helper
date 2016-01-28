@@ -1,19 +1,18 @@
 ﻿Public Class UI_ItemPallet
-    Private _ArcheologyItems As List(Of My_item) = New List(Of My_item)
+
     Sub New()
         Icons.ImageSize = New Size(54, 54)
-        For Each item In Items
-
-            Select Case item.Crewskill
-                Case "Archeology"
-                    _ArcheologyItems.Add(item)
-            End Select
-        Next
 
         _win = New Form
         _tabber = New TabControl
         _ArcheologyTab = New TabPage
         _ArcheologyListView = New ListView
+        _BioanalysisTab = New TabPage
+        _BioanalysisListView = New ListView
+        _ScavengingTab = New TabPage
+        _ScavengingListView = New ListView
+        _SlicingTab = New TabPage
+        _SlicingListView = New ListView
 
         _tabber.SuspendLayout()
         _ArcheologyTab.SuspendLayout()
@@ -25,23 +24,81 @@
         _ArcheologyListView.Dock = DockStyle.Fill
         _ArcheologyListView.LargeImageList = Icons
         _ArcheologyListView.MultiSelect = False
-        '_ArcheologyListViewItems
-        For Each item In _ArcheologyItems
-            Dim litem As ListViewItem = New ListViewItem
-            litem.Text = item.Name
-            litem.ImageIndex = Icons.Images.Keys.IndexOf(item.Name)
-            _ArcheologyListView.Items.Add(litem)
 
+        '_BioanalysisListView
+        _BioanalysisListView.Location = New System.Drawing.Point(0, 0)
+        _BioanalysisListView.Size = New System.Drawing.Size(560, 317)
+        _BioanalysisListView.Dock = DockStyle.Fill
+        _BioanalysisListView.LargeImageList = Icons
+        _BioanalysisListView.MultiSelect = False
+
+        '_BioanalysisListView
+        _ScavengingListView.Location = New System.Drawing.Point(0, 0)
+        _ScavengingListView.Size = New System.Drawing.Size(560, 317)
+        _ScavengingListView.Dock = DockStyle.Fill
+        _ScavengingListView.LargeImageList = Icons
+        _ScavengingListView.MultiSelect = False
+
+        '_BioanalysisListView
+        _SlicingListView.Location = New System.Drawing.Point(0, 0)
+        _SlicingListView.Size = New System.Drawing.Size(560, 317)
+        _SlicingListView.Dock = DockStyle.Fill
+        _SlicingListView.LargeImageList = Icons
+        _SlicingListView.MultiSelect = False
+        For Each item In Items
+
+            Select Case item.Crewskill
+                Case "Archeology"
+                    Dim litem As ListViewItem = New ListViewItem
+                    litem.Text = item.Name
+                    litem.ImageIndex = Icons.Images.Keys.IndexOf(item.Name)
+                    _ArcheologyListView.Items.Add(litem)
+                Case "Bioanalysis"
+                    Dim litem As ListViewItem = New ListViewItem
+                    litem.Text = item.Name
+                    litem.ImageIndex = Icons.Images.Keys.IndexOf(item.Name)
+                    _BioanalysisListView.Items.Add(litem)
+                Case "Scavenging"
+                    Dim litem As ListViewItem = New ListViewItem
+                    litem.Text = item.Name
+                    litem.ImageIndex = Icons.Images.Keys.IndexOf(item.Name)
+                    _ScavengingListView.Items.Add(litem)
+                Case "Slicing"
+                    Dim litem As ListViewItem = New ListViewItem
+                    litem.Text = item.Name
+                    litem.ImageIndex = Icons.Images.Keys.IndexOf(item.Name)
+                    _SlicingListView.Items.Add(litem)
+            End Select
         Next
+
+        '_ArcheologyListViewItems
+
+
 
         '_ArcheologyTab
         _ArcheologyTab.Text = "Archeology"
         _ArcheologyTab.Controls.Add(_ArcheologyListView)
+        '_BioanalysisTab
+        _BioanalysisTab.Text = "Bioanalysis"
+        _BioanalysisTab.Controls.Add(_BioanalysisListView)
+        '_ScavengingTab
+        _ScavengingTab.Text = "Scavenging"
+        _ScavengingTab.Controls.Add(_ScavengingListView)
+        '_SlicingTab
+        _SlicingTab.Text = "Slicing"
+        _SlicingTab.Controls.Add(_SlicingListView)
+
+
+
         '_tabber
         _tabber.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         _tabber.Controls.Add(_ArcheologyTab)
+        _tabber.Controls.Add(_BioanalysisTab)
+        _tabber.Controls.Add(_ScavengingTab)
+        _tabber.Controls.Add(_SlicingTab)
+
         _tabber.Location = New System.Drawing.Point(6, 6)
         _tabber.Name = "Pallet"
         _tabber.SelectedIndex = 0
@@ -80,7 +137,7 @@
 
     End Sub
 
-    Private Sub ArcheologyListView_SelectedIndexChanged(sender As ListView, e As EventArgs) Handles _ArcheologyListView.SelectedIndexChanged
+    Private Sub ArcheologyListView_SelectedIndexChanged(sender As ListView, e As EventArgs) Handles _ArcheologyListView.SelectedIndexChanged, _BioanalysisListView.SelectedIndexChanged, _ScavengingListView.SelectedIndexChanged, _SlicingListView.SelectedIndexChanged
         If sender.SelectedItems.Count > 0 Then
             For Each bankui As UI_Bank In UI_Banks
                 bankui.PalletItem = getItembyName(sender.SelectedItems.Item(0).Text)
@@ -99,5 +156,10 @@
     Friend WithEvents _tabber As TabControl
     Friend WithEvents _ArcheologyTab As TabPage
     Friend WithEvents _ArcheologyListView As ListView
-
+    Friend WithEvents _BioanalysisTab As TabPage
+    Friend WithEvents _BioanalysisListView As ListView
+    Friend WithEvents _ScavengingTab As TabPage
+    Friend WithEvents _ScavengingListView As ListView
+    Friend WithEvents _SlicingTab As TabPage
+    Friend WithEvents _SlicingListView As ListView
 End Class
