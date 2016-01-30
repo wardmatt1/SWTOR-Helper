@@ -230,6 +230,7 @@ Public Class UI_ChrInventory
                 MsgBox("Out of room.")
             End If
         Else
+            Item_Pallet = New UI_ItemPallet
             Item_Pallet.window.Show()
         End If
     End Sub

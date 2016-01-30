@@ -132,10 +132,6 @@
     End Property
 
 
-    Private Sub window_close(sender As Object, e As EventArgs) Handles _win.Closed
-        Me.Finalize()
-
-    End Sub
 
     Private Sub ArcheologyListView_SelectedIndexChanged(sender As ListView, e As EventArgs) Handles _ArcheologyListView.SelectedIndexChanged, _BioanalysisListView.SelectedIndexChanged, _ScavengingListView.SelectedIndexChanged, _SlicingListView.SelectedIndexChanged
         If sender.SelectedItems.Count > 0 Then

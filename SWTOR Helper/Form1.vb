@@ -53,6 +53,7 @@ Public Class Main_Window
 
     Private Sub ItemPalletToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItemPalletToolStripMenuItem.Click
         Item_Pallet = New UI_ItemPallet
+
         Item_Pallet.window.Show()
     End Sub
 
