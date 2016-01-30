@@ -1,8 +1,10 @@
 ﻿Public Class My_CrewSkill
     Private _Name As String
-    Private _Tiers(8) As Integer
-    Private _TiersP(8) As String
+    Private _Tiers(9) As Integer
+    Private _TiersP(9) As String
     Private _Type As String
+    Private _ReqSkillH As String
+    Private _ReqSkillM As String
     Sub New(name As String)
         _Name = name
         CrewSkills.Add(_Name, Me)
@@ -21,6 +23,22 @@
         End Get
         Set(value As String)
             _Type = value
+        End Set
+    End Property
+    Public Property ReqSkillH As String
+        Get
+            Return _ReqSkillH
+        End Get
+        Set(value As String)
+            _ReqSkillH = value
+        End Set
+    End Property
+    Public Property ReqSkillM As String
+        Get
+            Return _ReqSkillM
+        End Get
+        Set(value As String)
+            _ReqSkillM = _ReqSkillM
         End Set
     End Property
 

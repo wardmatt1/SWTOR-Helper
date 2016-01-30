@@ -5,6 +5,7 @@ Imports System.IO
 
 
 Public Module My_functions
+    Public Enablelogging = False
     Public UI_Main As UI_Mainwindow
     Public Items As List(Of My_item) = New List(Of My_item)
     Public UI_Banks As List(Of UI_Bank) = New List(Of UI_Bank)
@@ -12,11 +13,14 @@ Public Module My_functions
     Public MainW As Form = Main_Window
     Public Item_Pallet As UI_ItemPallet
     Public Icons As ImageList = New ImageList
+    Friend WithEvents Events As New My_Events
+
     'Dictionaries
     Public LoadedLegacy As New Dictionary(Of String, Legacy)
     Public MainPanels As New Dictionary(Of String, Panel)
     Public TreeViewNodes As New Dictionary(Of String, TreeNode)
     Public CrewSkills As New Dictionary(Of String, My_CrewSkill)
+
 
 
     Public Function NewPanel(Name As String) As Panel

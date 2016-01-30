@@ -19,6 +19,8 @@
     <Tier7P>Makeb, Oricon</Tier7P>
     <Tier8>450</Tier8>
     <Tier8P>Rishi, Yavin 4</Tier8P>
+    <Tier9>500</Tier9>
+    <Tier9P>Rishi, Yavin 4</Tier9P>
   </CrewSkill>
   <CrewSkill>
     <Name>Scavenging</Name>
@@ -39,7 +41,9 @@
     <Tier7P>Makeb, Oricon</Tier7P>
     <Tier8>450</Tier8>
     <Tier8P>Rishi, Yavin 4</Tier8P>
-  </CrewSkill>
+    <Tier9>500</Tier9>
+    <Tier9P>Rishi, Yavin 4</Tier9P>
+    </CrewSkill>
   <CrewSkill>
     <Name>Slicing</Name>
     <Type>Gathering</Type>
@@ -59,6 +63,8 @@
     <Tier7P>Makeb, Oricon</Tier7P>
     <Tier8>450</Tier8>
     <Tier8P>Rishi, Yavin 4</Tier8P>
+    <Tier9>500</Tier9>
+    <Tier9P>Rishi, Yavin 4</Tier9P>
   </CrewSkill>
   <CrewSkill>
     <Name>Archeology</Name>
@@ -79,6 +85,8 @@
     <Tier7P>Makeb, Oricon</Tier7P>
     <Tier8>450</Tier8>
     <Tier8P>Rishi, Yavin 4</Tier8P>
+    <Tier9>500</Tier9>
+    <Tier9P>Rishi, Yavin 4</Tier9P>
   </CrewSkill>
   <CrewSkill>
     <Name>Diplomicy</Name>
@@ -91,7 +99,8 @@
     <Tier6>350</Tier6>
     <Tier7>400</Tier7>
     <Tier8>450</Tier8>
-  </CrewSkill>
+    <Tier9>500</Tier9>
+</CrewSkill>
   <CrewSkill>
     <Name>Investigation</Name>
     <Type>Mission</Type>
@@ -103,6 +112,7 @@
     <Tier6>350</Tier6>
     <Tier7>400</Tier7>
     <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
   </CrewSkill>
   <CrewSkill>
     <Name>Underworld Trading</Name>
@@ -115,6 +125,7 @@
     <Tier6>350</Tier6>
     <Tier7>400</Tier7>
     <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
   </CrewSkill>
   <CrewSkill>
     <Name>Treasure Hunting</Name>
@@ -127,5 +138,96 @@
     <Tier6>350</Tier6>
     <Tier7>400</Tier7>
     <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Biochem</Name>
+    <Type>Crafting</Type>
+    <ReqSkillH>Bioasalysis,Diplomacy</ReqSkillH>
+    <ReqSkillM>Diplomacy</ReqSkillM>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>ArmsTech</Name>
+    <Type>Crafting</Type>
+    <ReqSkillH>Scavenging</ReqSkillH>      
+    <ReqSkillM>Investigation,Slicing</ReqSkillM>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Armormech</Name>
+    <Type>Crafting</Type>
+    <ReqSkillH>Scavenging</ReqSkillH>      
+    <ReqSkillM>Underworld Trading,Slicing</ReqSkillM>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>CyberTech</Name>
+    <Type>Crafting</Type>
+    <ReqSkillH>Scavenging</ReqSkillH>      
+    <ReqSkillM>Underworld Trading,Slicing</ReqSkillM>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Synthweaving</Name>
+    <Type>Crafting</Type>
+    <ReqSkillH>Archaeology</ReqSkillH>      
+    <ReqSkillM>Treasure Hunting</ReqSkillM>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
+  </CrewSkill>
+  <CrewSkill>
+    <Name>Artifice</Name>
+    <Type>Crafting</Type>
+    <ReqSkillH>Archaeology</ReqSkillH>      
+    <ReqSkillM>Treasure Hunting</ReqSkillM>
+    <Tier1>0</Tier1>
+    <Tier2>80</Tier2>
+    <Tier3>160</Tier3>
+    <Tier4>240</Tier4>
+    <Tier5>300</Tier5>
+    <Tier6>350</Tier6>
+    <Tier7>400</Tier7>
+    <Tier8>450</Tier8>
+    <Tier9>500</Tier9>
   </CrewSkill>
 </data>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Class>
+    <Name>Trooper</Name>
+    <AdvClass1>Vanguard</AdvClass1>
+    <AdvClass2>Commando</AdvClass2>
+    <Disc1>Tactics</Disc1>
+    <Disc2>Shield Specialist</Disc2>
+    <Disc3>Assault Specialist</Disc3>
+    <Disc4>Gunnery</Disc4>
+    <Disc5>Combat Medic</Disc5>
+    <Disc6>Assault Specialist</Disc6>
+  </Class>
+  <Class>
+    <Name>Smuggler</Name>
+    <AdvClass1>Gunslinger</AdvClass1>
+    <AdvClass2>Scoundrel</AdvClass2>
+    <Disc1>Saboteur</Disc1>
+    <Disc2>Sharpshooter</Disc2>
+    <Disc3>Dirty Fighting</Disc3>
+    <Disc4>Sawbones</Disc4>
+    <Disc5>Scrapper</Disc5>
+    <Disc6>Dirty Fighting</Disc6>
+  </Class>
+  <Class>
+    <Name>Jedi Knight</Name>
+    <AdvClass1>Guardian</AdvClass1>
+    <AdvClass2>Sentinel</AdvClass2>
+    <Disc1>Vigilance</Disc1>
+    <Disc2>Defense</Disc2>
+    <Disc3>Focus</Disc3>
+    <Disc4>Watchman</Disc4>
+    <Disc5>Combat</Disc5>
+    <Disc6>Focus</Disc6>
+  </Class>
+  <Class>
+    <Name>Jedi Consular</Name>
+    <AdvClass1>Sage</AdvClass1>
+    <AdvClass2>Shadow</AdvClass2>
+    <Disc1>Telekinetics</Disc1>
+    <Disc2>Seer</Disc2>
+    <Disc3>Balance</Disc3>
+    <Disc4>Infiltration</Disc4>
+    <Disc5>Kinetic Combat</Disc5>
+    <Disc6>Balance</Disc6>
+  </Class>
+  <Class>
+    <Name>Bounty Hunter</Name>
+    <AdvClass1>Powertech</AdvClass1>
+    <AdvClass2>Mercenary</AdvClass2>
+    <Disc1>Shield Tech</Disc1>
+    <Disc2>Advanced Prototype</Disc2>
+    <Disc3>Firebug</Disc3>
+    <Disc4>Arsenal</Disc4>
+    <Disc5>Bodyguard</Disc5>
+    <Disc6>Firebug</Disc6>
+  </Class>
+  <Class>
+    <Name>Sith Warrior</Name>
+    <AdvClass1>Juggernaut</AdvClass1>
+    <AdvClass2>Marauder</AdvClass2>
+    <Disc1>Vengeance</Disc1>
+    <Disc2>Immortal</Disc2>
+    <Disc3>Rage</Disc3>
+    <Disc4>Annihilation</Disc4>
+    <Disc5>Carnage</Disc5>
+    <Disc6>Rage</Disc6>
+  </Class>
+  <Class>
+    <Name>Imperial Agent</Name>
+    <AdvClass1>Operative</AdvClass1>
+    <AdvClass2>Sniper</AdvClass2>
+    <Disc1>Concealment</Disc1>
+    <Disc2>Medic</Disc2>
+    <Disc3>Lethality</Disc3>
+    <Disc4>Marksmanship</Disc4>
+    <Disc5>Engineering</Disc5>
+    <Disc6>Lethality</Disc6>
+  </Class>
+  <Class>
+    <Name>Sith Inquisitor</Name>
+    <AdvClass1>Assassin</AdvClass1>
+    <AdvClass2>Sorcerer</AdvClass2>
+    <Disc1>Deception</Disc1>
+    <Disc2>Darkness</Disc2>
+    <Disc3>Madness</Disc3>
+    <Disc4>Lightning</Disc4>
+    <Disc5>Corruption</Disc5>
+    <Disc6>Madness</Disc6>
+  </Class>
+</data>

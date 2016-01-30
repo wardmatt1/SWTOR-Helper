@@ -1,7 +1,11 @@
 ﻿Public Class UI_Legacy
     Inherits UI
     Private _UI_Characters As UI_Characters
+    Private leg As Legacy
+    Friend WithEvents Events As My_Events = My_functions.Events
+
     Sub New(l As Legacy)
+        leg = l
 
         UI_Name = AddTreeNode(UI_Main.treeview, l.SWTOR_Name)
         UI_Panel = NewPanel(UI_Name)
@@ -26,6 +30,12 @@
 
 
         MainW.Controls.Add(UI_Panel)
+
+    End Sub
+    Private Sub InvChg(sender As Inventory) Handles Events._InventoryChange
+        If leg.Inventorys.Contains(sender) Then
+            'Update Inv_OV_ListView
+        End If
 
     End Sub
     Friend WithEvents _titlelabel As Label

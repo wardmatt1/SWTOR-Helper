@@ -5,9 +5,7 @@ Public Class Main_Window
         Log("-------------------")
         Log("Starting up deh helper!")
         Log(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"))
-        loadxml("CrewSkills")
-
-        loadxml("Items")
+        LoadData()
         Item_Pallet = New UI_ItemPallet
 
         UI_Main = New UI_Mainwindow(Me)
@@ -28,11 +26,19 @@ Public Class Main_Window
     End Sub
 
     Private Sub CharacterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CharacterToolStripMenuItem.Click
+
+        If UI_Main.treeview.SelectedNode Is Nothing Then
+            UI_Main.treeview.SelectedNode = UI_Main.treeview.Nodes.Item(0)
+        End If
+
         Dim legnod As TreeNode = findrootnode(UI_Main.treeview.SelectedNode)
         If legnod.Text = "Crafting Items" Then
             MsgBox("You must select a Legacy")
         Else
+
             Dim l As Legacy = GetDictItem(legnod.Text, LoadedLegacy)
+            Dim name As String = InputBox("New Character")
+            Dim chr As Character = New Character(name, l)
         End If
     End Sub
 

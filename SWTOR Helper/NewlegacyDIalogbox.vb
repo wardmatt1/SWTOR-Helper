@@ -8,7 +8,11 @@ Public Class NewlegacyDIalogbox
         server = NewlegacyDIalogbox_TextBox2.Text
         acctype = NewlegacyDIalogbox_ComboBox1.GetItemText(NewlegacyDIalogbox_ComboBox1.SelectedItem)
         If name <> Nothing And server <> Nothing And acctype <> Nothing Then
-            '  Dim l As Legacy = New Legacy(name, server, acctype)
+            ' Dim l As Legacy = New Legacy(name, server, acctype)
+
+            'temp 
+            Dim l As Legacy = New Legacy(name)
+            '
             Me.Close()
         Else
             MsgBox("You must fill in all the info.")

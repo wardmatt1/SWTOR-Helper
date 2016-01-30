@@ -13,6 +13,11 @@
         LoadedLegacy.Add(SWTOR_Name, Me)
         SWTOR_MainPanel = New UI_Legacy(Me)
         SWTOR_Bank = New Bank(Me, SWTOR_MainPanel)
+        Inventorys.Add(SWTOR_Bank.banktab(0))
+        Inventorys.Add(SWTOR_Bank.banktab(1))
+        Inventorys.Add(SWTOR_Bank.banktab(2))
+        Inventorys.Add(SWTOR_Bank.banktab(3))
+        Inventorys.Add(SWTOR_Bank.banktab(4))
         _UI_Characters = New UI_Characters(SWTOR_MainPanel)
         _UI_CharactersNode = _UI_Characters.UI_TreeViewNode
     End Sub

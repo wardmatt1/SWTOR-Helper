@@ -15,10 +15,22 @@
     Public Sub addItem(item As My_item, count As Byte)
         Dim invitem As InventoryItem = New InventoryItem(item, Me, count)
         _slots.Add(invitem)
-        _slotsused += 1
+        slotsused += 1
     End Sub
     Public Sub remItem(slot As Integer)
         _slots.RemoveAt(slot)
-        _slotsused = _slotsused - 1
+        slotsused = slotsused - 1
     End Sub
+    Property slotsused
+        Get
+            Return _slotsused
+        End Get
+        Set(value)
+            If Not (value = _slotsused) Then
+                _slotsused = value
+                Events.InventoryChange(Me)
+            End If
+
+        End Set
+    End Property
 End Class

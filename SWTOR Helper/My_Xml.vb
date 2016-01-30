@@ -1,6 +1,12 @@
 ﻿Imports System.Xml
 Imports System.IO
 Module My_Xml
+    Public Sub LoadData()
+        loadxml("Classes")
+        loadxml("CrewSkills")
+        loadxml("Items")
+    End Sub
+
     Public Sub loadxml(dir As String)
         Dim filedir As String = Directory.GetCurrentDirectory() & "\" & dir
         For Each xmlfile In My.Computer.FileSystem.GetFiles(filedir)
@@ -53,18 +59,36 @@ Module My_Xml
                             crew.SetTier(6, My_InnerText("Tier6", node))
                             crew.SetTier(7, My_InnerText("Tier7", node))
                             crew.SetTier(8, My_InnerText("Tier8", node))
-                            If crew.Type = "Gathering" Then
-                                crew.SetPlanets(1, My_InnerText("Tier1P", node))
-                                crew.SetPlanets(2, My_InnerText("Tier2P", node))
-                                crew.SetPlanets(3, My_InnerText("Tier3P", node))
-                                crew.SetPlanets(4, My_InnerText("Tier4P", node))
-                                crew.SetPlanets(5, My_InnerText("Tier5P", node))
-                                crew.SetPlanets(6, My_InnerText("Tier6P", node))
-                                crew.SetPlanets(7, My_InnerText("Tier7P", node))
-                                crew.SetPlanets(8, My_InnerText("Tier8P", node))
-                            End If
-                        Case "Planets"
+                            crew.SetTier(9, My_InnerText("Tier9", node))
+                            Select Case crew.Type
+                                Case "Gathering"
+                                    crew.SetPlanets(1, My_InnerText("Tier1P", node))
+                                    crew.SetPlanets(2, My_InnerText("Tier2P", node))
+                                    crew.SetPlanets(3, My_InnerText("Tier3P", node))
+                                    crew.SetPlanets(4, My_InnerText("Tier4P", node))
+                                    crew.SetPlanets(5, My_InnerText("Tier5P", node))
+                                    crew.SetPlanets(6, My_InnerText("Tier6P", node))
+                                    crew.SetPlanets(7, My_InnerText("Tier7P", node))
+                                    crew.SetPlanets(8, My_InnerText("Tier8P", node))
+                                    crew.SetPlanets(9, My_InnerText("Tier9P", node))
+                                Case "Crafting"
+                                    crew.ReqSkillH = My_InnerText("ReqSkillH", node)
+                                    crew.ReqSkillM = My_InnerText("ReqSkillM", node)
+                                Case "Mission"
+                            End Select
 
+                        Case "Class"
+                            Dim newclass As New My_Class()
+                            newclass.Name = My_InnerText("Name", node)
+                            newclass.SetAdvClass(My_InnerText("AdvClass1", node), 1)
+                            newclass.SetDiscipline(newclass.GetAdvClass(1), My_InnerText("Disc1", node), 1)
+                            newclass.SetDiscipline(newclass.GetAdvClass(1), My_InnerText("Disc2", node), 2)
+                            newclass.SetDiscipline(newclass.GetAdvClass(1), My_InnerText("Disc3", node), 3)
+                            newclass.SetAdvClass(My_InnerText("AdvClass2", node), 2)
+
+                            newclass.SetDiscipline(newclass.GetAdvClass(2), My_InnerText("Disc4", node), 1)
+                            newclass.SetDiscipline(newclass.GetAdvClass(2), My_InnerText("Disc5", node), 2)
+                            newclass.SetDiscipline(newclass.GetAdvClass(2), My_InnerText("Disc6", node), 3)
                         Case "Schematic"
 
                     End Select

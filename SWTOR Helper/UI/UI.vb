@@ -3,7 +3,7 @@ Public Class UI
 
     Private _window As Form
     Private _Name As String
-    Private _Panel As System.Windows.Forms.Panel
+    Friend WithEvents _Panel As System.Windows.Forms.Panel
     Private _TreeViewNode As System.Windows.Forms.TreeNode
 
 

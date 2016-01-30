@@ -4,6 +4,7 @@
     Private _Panel As UI
     Private _node As String
     Private _type As Boolean
+    Public Inventorys As List(Of Inventory) = New List(Of Inventory)
 
     Public Property SWTOR_Type As Boolean
         Get
